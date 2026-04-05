@@ -37,9 +37,9 @@ content += '<br><br>End of Message'
 print("Composing email....")
 SERVER = 'smtp.gmail.com'
 PORT = 587
-FROM = 'anushahm101@gmail.com'
-TO = 'hmanusha43@gmail.com'
-PASS = 'yout sshn luhf bdbv'
+FROM = 'XYZ@gmail.com'
+TO = 'ABC@gmail.com'
+PASS = 'XYZ'
 
 msg = MIMEMultipart()
 msg['Subject'] = f'Top NEWS Stories HN (Automated) {now.day}-{now.month}-{now.year}'
